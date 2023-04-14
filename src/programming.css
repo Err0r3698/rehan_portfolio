@@ -1,0 +1,27 @@
+.programming-section {
+  color: #98dfd6;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.skills-text {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.skills-items {
+  font-size: 1.1rem;
+  color: rgb(242 246 215);
+}
+
+.reactjs {
+  margin-left: 20px;
+}
+
+.jquery {
+  margin-right: 20px;
+}
+.css {
+  margin-left: 12px;
+}
