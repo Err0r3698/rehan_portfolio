@@ -16,3 +16,21 @@
   background-color: rgb(242 246 215);
   color: #1c1c1c;
 }
+.btn-decs{
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: Ubuntu;
+  color: #003973;
+  background: transparent;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid #5555;
+  transition: all 0.3s ease-in-out;
+  animation: Anim 2s ease-in-out infinite;
+}
+.btn-decs:hover {
+  transform: translateY(-5px);
+  background-color: #003973;
+  color: #E5E5BE;
+}

@@ -7,25 +7,22 @@ function Work() {
       <div className="work-inside-new">
         <div className="d-flex flex-column mx-2 my-4">
           <div className="d-flex flex-row justify-content-between">
-            <span className="company-name">Gyansys Infotech</span>
+            <span className="company-name">MSyllabus</span>
             <span className="year-passedout">Agust 2021-September 2022</span>
           </div>
         </div>
         <div className="d-flex flex-column">
-          <span className="position">Associate Consultant</span>
+          <span className="position">Full Stack Developer And Designer</span>
           <span className="description-position">
             <ul>
               <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit ame
-                cosndlfesting.
+                I designed the UI and developed the code in Reactjs.
               </li>
               <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit ame
-                cosndlfesting.
+                Tested Functionality of the website and modified the website if changes needed.
               </li>
               <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit ame
-                cosndlfesting.
+                Wrote clean code and made the responsive website.
               </li>
             </ul>
           </span>

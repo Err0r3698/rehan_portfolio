@@ -10,10 +10,10 @@ import Typed from "typed.js";
 
 export default function App() {
   // for useState
-  const [education, seteducation] = useState(true);
+  const [education, seteducation] = useState(false);
   const [workhistory, setworkhistory] = useState(false);
   const [programming, setprogramming] = useState(false);
-  const [projects, setprojects] = useState(false);
+  const [projects, setprojects] = useState(true);
   const [opennav, setopennav] = useState(false);
 
   useEffect(() => {
@@ -157,7 +157,7 @@ export default function App() {
                   Hire Me
                 </a>
                 <a
-                  href="https://res.cloudinary.com/dcxnmagjx/image/upload/v1681117627/MD_Rehan_Ansari__Resume_i3eox1.pdf"
+                  href="https://www.dropbox.com/s/qvdym6nqyylnuo1/Fotor_AI.png?dl=0"
               
                   className="btn-get-resume"
                   target="_blank"
@@ -172,8 +172,8 @@ export default function App() {
             <div className="d-flex justify-content-center ">
               <img
                 className="img-fluid custom-img"
+                src="https://www.dropbox.com/s/4hqmvolfpqxti76/WhatsApp%20Image%202023-02-17%20at%2013.25.32.jpg?dl=0"
                 alt="heroimage"
-                src="https://www.dropbox.com/s/qvdym6nqyylnuo1/Fotor_AI.png?dl=0"
               />
             </div>
           </div>
@@ -218,10 +218,10 @@ export default function App() {
                 <span className="few-list">
                   <ul className="py-3">
                     <li>Full Stack Web Development</li>
+                    <li>HTML, CSS, Bootstrap, JavaScript, ReactJS</li>
                     <li>Interactive Front end as per the design</li>
                     <li>Node JS, Express, MongoDB (Backend Technologies)</li>
-                    <li>Android studio, React Native and flutter</li>
-                    <li>Docker, Kubernates, AWS</li>
+                    <li>Firebase, Netlify, Render,AWS</li>
                   </ul>
                 </span>
               </span>
@@ -249,7 +249,7 @@ export default function App() {
             <div className="d-flex flex-column bg-new text-white">
               {/* took flex-column for font icon icon's(4 icon and 4 text) and for texts */}
               <span className="icons-span">
-                <i class="fa-solid fa-user-graduate"></i>
+                <i class="fa-solid fa-list-check"></i>
               </span>
               <span className="icons-span">
                 <i class="fa-solid fa-briefcase"></i>
@@ -257,22 +257,28 @@ export default function App() {
               <span className="icons-span">
                 <i class="fa-solid fa-code"></i>
               </span>
+              
               <span className="icons-span">
-                <i class="fa-solid fa-list-check"></i>
+                <i class="fa-solid fa-user-graduate"></i>
               </span>
+              
+              
+             
             </div>
             {/* now doing for 4 texts */}
             <div className="d-flex flex-column">
-              <span
+              
+            <span
                 className={
-                  education === false
+                  projects === false
                     ? "resume-options-items"
                     : "selected resume-options-items"
                 }
-                onClick={() => ChangeState(seteducation, true)}
+                onClick={() => ChangeState(setprojects, true)}
               >
-                Education
+                Projects
               </span>
+              
               <span
                 className={
                   workhistory === false
@@ -283,6 +289,7 @@ export default function App() {
               >
                 Work
               </span>
+               
               <span
                 className={
                   programming === false
@@ -295,14 +302,17 @@ export default function App() {
               </span>
               <span
                 className={
-                  projects === false
+                  education === false
                     ? "resume-options-items"
                     : "selected resume-options-items"
                 }
-                onClick={() => ChangeState(setprojects, true)}
+                onClick={() => ChangeState(seteducation, true)}
               >
-                Projects
+                Education
               </span>
+              
+              
+              
             </div>
           </div>
           <div className="col-lg-8 col-md-8 resume-right-section">

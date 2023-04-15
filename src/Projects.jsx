@@ -40,13 +40,13 @@ function Projects() {
         <div className="education-one my-4 justify-content-between d-flex flex-row">
           {/* now we'll be crtng 2 div one for text part and 1 for year part */}
           <div className="d-flex flex-column new-one">
-            <span className="university-name">TodoList</span>
+            <span className="university-name">Ranchi Motors</span>
             <span className="university-degree">
-              Technologies - NodeJs,ExpressJs,MongoDB
+              Technologies - ReactJs
             </span>
           </div>
           <div>
-            <a href="https://todolist-testtt.onrender.com/">
+            <a href="https://ranchimotors.com/">
               <button className="btn-dec">
                 <i class="fa-solid fa-up-right-from-square"></i>
               </button>{" "}
@@ -55,17 +55,7 @@ function Projects() {
         </div>
         <div className="education-one my-4 justify-content-between d-flex flex-row">
           {/* now we'll be crtng 2 div one for text part and 1 for year part */}
-          <div className="d-flex flex-column new-one">
-            <span className="university-name">WeaterApp</span>
-            <span className="university-degree">
-              Technology - Node JS, MongoDB
-            </span>
-          </div>
-          <div>
-            <a href="https://rehan-weatherapp.onrender.com">
-              <button className="btn-link">Visit</button>
-            </a>
-          </div>
+          
         </div>
       </div>
     </>
