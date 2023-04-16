@@ -171,10 +171,10 @@ a {
 }
 
 .custom-img {
-	width: 250px;
-	height: 250px;
+	width: 350px;
+	height: 350px;
 	box-sizing: border-box;
-	border: 2px hsl(30, 100%, 70%) solid;
+	border: 1px hsl(0, 3%, 6%) solid;
 	border-radius: 50%;
 	overflow: hidden;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -436,7 +436,7 @@ img { width: 100%; height: auto; }
     margin-block: 24px;
   }
   .custom-img {
-    border: 2px hsl(30, 100%, 70%) solid;
+    border: 1px hsl(0, 0%, 6%) solid;
   }
 
   .about-me-text {

@@ -132,6 +132,7 @@ export default function App() {
           </a>
         </div>
       </nav>
+
       <div className="herosection px-10 py-5" id="home">
         {/* for herosection main text and image */}
         <div className="herosection-2 row justify-content-center">
@@ -157,7 +158,7 @@ export default function App() {
                   Hire Me
                 </a>
                 <a
-                  href="https://www.dropbox.com/s/qvdym6nqyylnuo1/Fotor_AI.png?dl=0"
+                  href="https://www.dropbox.com/s/b070mtpweu7ub5y/Rehan%20resume%20-%20Google%20Docs.pdf?dl=0"
               
                   className="btn-get-resume"
                   target="_blank"
@@ -172,8 +173,8 @@ export default function App() {
             <div className="d-flex justify-content-center ">
               <img
                 className="img-fluid custom-img"
-                src="https://www.dropbox.com/s/4hqmvolfpqxti76/WhatsApp%20Image%202023-02-17%20at%2013.25.32.jpg?dl=0"
-                alt="heroimage"
+                src="https://res.cloudinary.com/dlvw0rclu/image/upload/v1681631041/WhatsApp_Image_2023-04-16_at_13.00.13_mcv2h2.png"
+                alt=""
               />
             </div>
           </div>

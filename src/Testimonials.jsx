@@ -7,7 +7,6 @@ function Testimonials() {
       name: "Kashif",
       text:
         "This guy is incredibly awesome, I was looking a way to buy scraps online And then I found him and he delivered me a great website."
-        
     },
     {
       name: "Asif",
