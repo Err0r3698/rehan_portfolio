@@ -3,7 +3,7 @@
 /* Css variable */
 :root {
   --primary-app-color: #003973;
-  --secondary-app-color: #E5E5BE;
+  --secondary-app-color: #2a50b1b0;
   --nav-items-color: #ffff;
   --standout-color: #fffb00;
 }
@@ -47,7 +47,7 @@ a {
 .brand-name {
   font-family: "Oswald";
   background: linear-gradient(
-    to right,#FF4E50,#26D0CE );
+    to right,#003973,#232f84 );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 2rem;
@@ -75,7 +75,7 @@ a {
 
 .name-Im-text {
   background: linear-gradient(
-    to right,hsl(30, 100%, 50%), hsl(30, 100%, 70%));
+    to right,hsl(41, 77%, 51%), hsl(30, 100%, 70%));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 28px;
@@ -119,8 +119,8 @@ a {
   transform: translateY(-5px);
   background: linear-gradient(
     to right,
-    #f7ff00,
-    #1fddff
+    #f4be0e,
+    #f96b06
   );
   color: #1c1c1c;
 }
@@ -373,7 +373,7 @@ img { width: 100%; height: auto; }
   }
   .nav-items:hover{
     background: linear-gradient(
-      to right,#26D0CE ,#F9D423 );
+      to right,#F9D423,#26D0CE  );
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -423,7 +423,7 @@ img { width: 100%; height: auto; }
   }
   .Im-text-subheading {
     font-size: 1.2rem;
-  }
+  }l̥
 
   .btn-hire-me {
     font-size: 1rem;
