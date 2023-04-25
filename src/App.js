@@ -42,7 +42,7 @@ export default function App() {
         "Enthusiastic Dev ",
         "FrontEnd Developer",
         "Full Stack Web Developer",
-        "MERN Stack Developer"
+        "MERN Stack Developer",
       ],
       startDelay: 0,
       typeSpeed: 80,
@@ -52,7 +52,7 @@ export default function App() {
       loop: true,
       showCursor: true,
       autoInsertCss: true,
-      cursorChar: "|"
+      cursorChar: "|",
     });
     return () => {
       typed.destroy();
@@ -159,7 +159,6 @@ export default function App() {
                 </a>
                 <a
                   href="https://www.dropbox.com/s/b070mtpweu7ub5y/Rehan%20resume%20-%20Google%20Docs.pdf?dl=0"
-              
                   className="btn-get-resume"
                   target="_blank"
                 >
@@ -209,10 +208,9 @@ export default function App() {
 
             <div className="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
               <span className="some-text-about-me">
-                Full Stack Web Developer with good knowledge of front end
-                technologies like Reactjs and background knowledge in MERN
-                stack.Looking forward to be an important asset for an
-                organization.
+                Experienced Full Stack Web Developer proficient in Reactjs and
+                MERN stack. Seeking to enhance organizational growth through
+                application of skills and expertise.
               </span>
               <span className="few-highlights">
                 <span className="few-text">Here are few Highlights</span>
@@ -258,18 +256,14 @@ export default function App() {
               <span className="icons-span">
                 <i class="fa-solid fa-code"></i>
               </span>
-              
+
               <span className="icons-span">
                 <i class="fa-solid fa-user-graduate"></i>
               </span>
-              
-              
-             
             </div>
             {/* now doing for 4 texts */}
             <div className="d-flex flex-column">
-              
-            <span
+              <span
                 className={
                   projects === false
                     ? "resume-options-items"
@@ -279,7 +273,7 @@ export default function App() {
               >
                 Projects
               </span>
-              
+
               <span
                 className={
                   workhistory === false
@@ -290,7 +284,7 @@ export default function App() {
               >
                 Work
               </span>
-               
+
               <span
                 className={
                   programming === false
@@ -311,9 +305,6 @@ export default function App() {
               >
                 Education
               </span>
-              
-              
-              
             </div>
           </div>
           <div className="col-lg-8 col-md-8 resume-right-section">
