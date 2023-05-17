@@ -158,7 +158,7 @@ export default function App() {
                   Hire Me
                 </a>
                 <a
-                  href="https://www.dropbox.com/s/b070mtpweu7ub5y/Rehan%20resume%20-%20Google%20Docs.pdf?dl=0"
+                  href="https://res.cloudinary.com/dcxnmagjx/image/upload/v1684305468/Rehan_resume_-U4_Google_Docs_j38nfg.pdf"
                   className="btn-get-resume"
                   target="_blank"
                 >
